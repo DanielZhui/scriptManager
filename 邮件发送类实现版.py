@@ -4,6 +4,7 @@ from selenium import webdriver
 
 
 class Base(object):
+    '''基本类'''
 
     def __init__(self):
         self.susername = open('superemail/126.txt', mode='r')
@@ -221,10 +222,7 @@ class yeahemail(Base):
                 self.error1_txt.write(yeah)
                 print('>>>>>%s发送失败' %(yeah.strip()))
                 driver.close()
-
-    def eat(self):
-        print(22222)
-
+                
 if __name__ == '__main__':
     '''项目启动入口'''
     Send123.send123()
