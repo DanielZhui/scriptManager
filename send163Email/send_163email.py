@@ -227,4 +227,3 @@ if __name__ == '__main__':
     '''项目启动入口'''
     Send123.send123()
     yeahemail.sendyeah()
-
